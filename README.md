@@ -13,11 +13,20 @@ Currently supported countries: 🇧🇷 🇫🇷 🇬🇧 🇺🇸
 
 ## Installation 👷‍♀️
 
-#### First, you need to clone the repository
+First of all, you'll need a [News API](https://newsapi.org/) key.
+You can get one from their website, it is **free**.
+
+#### Clone the repository
 
 ```
 $ git clone https://github.com/LuisCardosoOliveira/quickly.git
 $ cd quickly
+```
+
+Once finished, go ahead and create an `.env` file with our API_KEY like that (replacing the `<key>` by your real key):
+
+```
+API_KEY=<key>
 ```
 
 #### Supposing that you already have Rust installed, compile the package
