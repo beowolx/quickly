@@ -34,7 +34,7 @@ $ ./target/debug/quickly <COUNTRY> <CATEGORY> <QUERY>
 
 #### Requirements
 
-![Minimum Rust version](https://badgen.net/badge/rust/%3E=1.3/green)
+[Rust](https://www.rust-lang.org/tools/install)
 
 ## Usage
 
