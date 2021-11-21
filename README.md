@@ -38,6 +38,8 @@ $ ./target/debug/quickly <COUNTRY> <CATEGORY> <QUERY>
 
 ## Usage
 
+### Instructions
+
 ```
 $ ./target/debug/quickly --help
 
@@ -60,6 +62,24 @@ ARGS:
 OPTIONS:
     -h, --help       Print help information
     -V, --version    Print version information
+```
+
+### Default search (US, Technology)
+
+```
+$ ./target/debug/quickly
+```
+
+### Search for headlines with the query Apple
+
+```
+$ ./target/debug/quickly -- Apple
+```
+
+### Search headlines in France with category settled as technology and query Black Friday
+
+```
+$ ./target/debug/quickly fr technology -- Black Friday
 ```
 
 ## Contributing 🤖

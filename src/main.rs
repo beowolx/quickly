@@ -54,6 +54,7 @@ fn main() -> Result<(), Box<dyn Error>> {
                 .value_name("QUERY")
                 .about("Keywords or a phrase to search for.")
                 .takes_value(true)
+                .last(true)
                 .required(false),
         )
         .get_matches();
